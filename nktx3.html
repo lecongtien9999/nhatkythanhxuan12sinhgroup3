@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhật Ký Thanh Xuân</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- PHẦN ĐẦU TRANG (HEADER) -->
+    <header>
+        <h1>Nhật Ký Thanh Xuân</h1>
+        <p>Những ký ức đẹp của tuổi học trò</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#stories">Bài viết</a></li>
+            <li><a href="#gallery">Góc ảnh</a></li>
+            <li><a href="#music">Góc âm nhạc</a></li>
+            <li><a href="#comments">Bình luận</a></li>
+            <li><a href="#footer">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <!-- PHẦN NỘI DUNG CHÍNH -->
+    <section id="home">
+        <h2>Chào mừng đến với Nhật Ký Thanh Xuân</h2>
+        <p class="center-text">Hãy cùng nhau lưu giữ những khoảnh khắc đẹp nhất của tuổi học trò</p>
+    </section>
+
+    <!-- Góc bài viết -->
+    <section id="stories">
+        <h2>Bài Viết</h2>
+        <article>
+            <h3> ✍️ Ngày cuối năm học</h3>
+            <p>Hôm nay là ngày cuối cùng của năm học. Cảm xúc thật khó tả, vui có, buồn có, lưu luyến có...</p>
+        </article>
+        <article>
+            <h3> ✍️ Khoảnh khắc tuổi 18</h3>
+            <p>18 tuổi - cột mốc đánh dấu sự trưởng thành, nhưng cũng là lúc chúng ta phải chia xa...</p>
+        </article>
+    </section>
+
+    <!-- Góc ảnh -->
+<section id="gallery">
+    <h2>📸 Góc Ảnh</h2>
+    <div class="gallery">
+        <img src="image/khoichuyen.jpg" alt="Kỷ niệm khối chuyên">
+        <img src="image/hinhlop.jpg" alt="Kỷ niệm lớp chuyên">
+    </div>
+</section>
+
+    <!-- Góc âm nhạc -->
+<section id="music">
+    <h2>🎵 Góc Âm Nhạc</h2>
+    <audio controls>
+        <source src="music/nucuoi.mp3" type="audio/mpeg">
+        Trình duyệt của bạn không hỗ trợ phát nhạc.
+    </audio>
+</section>
+    <!-- Góc bình luận -->
+    <section id="comments">
+        <h2>💬 Góc Bình Luận</h2>
+        <form>
+            <label for="name">Tên của bạn:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="comment">Bình luận:</label>
+            <textarea id="comment" name="comment" required></textarea>
+            <br>
+            <button type="submit">Gửi bình luận</button>
+        </form>
+    </section>
+
+    <!-- PHẦN CHÂN TRANG (FOOTER) -->
+    <footer id="footer">
+        <p> Design: <strong> by group 3</strong></p>
+<p>📧 Liên hệ: <a href="mailto:lecongtien888@gmail.com">lecongtien888@gmail.com</a></p>
+        <p>📅 Ngày cập nhật gần nhất: <strong>12/02/2025</strong></p>
+    </footer>
+</html>
